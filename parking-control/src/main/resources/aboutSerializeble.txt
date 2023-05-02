@@ -1,0 +1,37 @@
+
+Serializable é uma interface do Java que permite que um objeto seja convertido em uma sequência de bytes (serialização)
+para que possa ser armazenado ou transmitido pela rede e, em seguida, recriado na memória do computador (desserialização)
+em seu estado original. A interface Serializable é uma marcação de interface (marker interface),
+o que significa que não tem nenhum método a ser implementado. Sua única finalidade é indicar ao
+compilador que a classe pode ser serializada.
+
+
+A serialização é útil em situações em que é necessário persistir ou transmitir objetos entre
+diferentes processos ou sistemas. Quando um objeto é serializado,
+ele é convertido em uma sequência de bytes que pode ser gravada em um arquivo ou transmitida pela rede,
+e posteriormente desserializado em outro processo ou sistema para recriar o objeto em sua forma original.
+
+Algumas das razões pelas quais a serialização é usada incluem:
+
+Armazenamento de objetos em um banco de dados: A serialização pode ser usada para armazenar objetos complexos
+ em um banco de dados, convertendo-os em uma sequência de bytes que podem ser gravados em um campo BLOB (Binary Large Object).
+
+Comunicação em rede: A serialização pode ser usada para transmitir objetos entre
+diferentes processos ou sistemas em uma rede. Os objetos serializados podem
+ser transmitidos como fluxos de bytes e desserializados em outro processo
+ou sistema para recriar o objeto em sua forma original.
+
+Criação de cópias de objetos: A serialização pode ser usada para criar cópias de objetos,
+criando uma cópia serializada do objeto original e desserializando-a em uma nova instância do objeto.
+
+Armazenamento em cache: A serialização pode ser usada para armazenar objetos em cache em um sistema distribuído,
+convertendo-os em uma sequência de bytes que podem ser armazenados em um cache distribuído.
+
+Integração com outros sistemas: A serialização pode ser usada para integrar aplicativos
+Java com outros sistemas que usam diferentes formatos de dados, convertendo objetos Java em
+formatos de dados compatíveis com outros sistemas.
+
+Em resumo, a serialização é uma técnica poderosa que permite que objetos sejam convertidos em uma
+sequência de bytes que podem ser armazenados ou transmitidos pela rede. Isso torna a serialização útil em uma
+ampla variedade de cenários, incluindo armazenamento de objetos em bancos de dados, comunicação em rede e
+integração com outros sistemas.
