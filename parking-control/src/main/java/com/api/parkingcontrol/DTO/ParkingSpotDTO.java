@@ -64,7 +64,7 @@ public class ParkingSpotDTO {
     public void setColorCar(String colorCar) {
         this.colorCar = colorCar;
     }
-    
+
 
     public String getResponsibleName() {
         return responsibleName;
